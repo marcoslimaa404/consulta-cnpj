@@ -59,7 +59,7 @@ projeto_cnpj_email/
 }
 ```
 
-> Atenção: utilize uma senha de aplicativo do Gmail com a verificação em duas etapas ativada.
+> Atenção: Não utilize sua senha comum, crie uma senha de aplicativo nas configurações de Segurança da sua conta Google, disponível apenas com a verificação em duas etapas ativada.
 
 ## Bibliotecas Utilizadas
 
