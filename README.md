@@ -1,4 +1,4 @@
-# Consulta de CPNJ e Envio por E-mail
+# Consulta de CNPJ e Envio Automático por E-mail
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://www.python.org/)
 [![Plataforma](https://img.shields.io/badge/Executavel-Windows%20%7C%20Linux%20%7C%20Android-informational?logo=codeforces)]()
