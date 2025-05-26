@@ -34,6 +34,10 @@ A planilha final gerada contém os seguintes dados classificados por CNPJ:
 - **Telefone 1**
 - **Telefone 2**
 
+## Programa utilizado
+
+Edição e execução do código:[Pydroid 3](https://play.google.com/store/apps/details?id=ru.iiec.pydroid3)
+
 ## Estrutura do projeto
 
 ```
@@ -58,10 +62,6 @@ projeto_cnpj_email/
 ```
 
 > Atenção: Desde 30 de maio de 2022, o Google desativou a opção de utilizar sua senha de conta Google em aplicativos, solicitando que uma senha de aplicativo seja utilizada, disponível apenas com a verificação em duas etapas ativada.
-
-## Programa utilizado
-
-[Pydroid 3](https://play.google.com/store/apps/details?id=ru.iiec.pydroid3)
 
 ## Bibliotecas python utilizadas
 
