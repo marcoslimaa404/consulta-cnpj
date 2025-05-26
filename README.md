@@ -6,7 +6,7 @@
 
 ## Sobre o projeto
 
-Este projeto realiza uma **consulta de dados de empresas pelo CNPJ**, utilizando a [BrasilAPI](https://brasilapi.com.br/). Os dados são organizados em uma planilha `.xlsx` e enviados automaticamente por e-mail em anexo.
+Script em Python que realiza uma consulta de dados de empresas pelo CNPJ, utilizando a [BrasilAPI](https://brasilapi.com.br/). Os dados são organizados em uma planilha `.xlsx` e enviados automaticamente por e-mail em anexo.
 
 Foi desenvolvido como um **desafio pessoal** com o objetivo de aplicar conhecimentos em automação de processos, manipulação de arquivos, integração com APIs públicas e envio automatizado de relatórios.
 
