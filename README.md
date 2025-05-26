@@ -36,7 +36,7 @@ A planilha final gerada contém os seguintes dados classificados por CNPJ:
 
 ## Programa utilizado
 
-Edição e execução do código:[Pydroid 3](https://play.google.com/store/apps/details?id=ru.iiec.pydroid3)
+Edição e execução do código: [Pydroid 3](https://play.google.com/store/apps/details?id=ru.iiec.pydroid3)
 
 ## Estrutura do projeto
 
