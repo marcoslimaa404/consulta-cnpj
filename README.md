@@ -8,7 +8,7 @@
 
 Script em Python que realiza uma consulta de dados de empresas pelo CNPJ, utilizando a [BrasilAPI](https://brasilapi.com.br/). Os dados são organizados em uma planilha `.xlsx` e enviados automaticamente por e-mail em anexo.
 
-Foi desenvolvido como um desafio pessoal com o objetivo de aplicar conhecimentos em automação de processos, manipulação de arquivos, integração com APIs públicas e envio de e-mails automatizado.
+Foi desenvolvido inteiramente em um celular Android como um projeto pessoal, com o objetivo de aplicar conhecimentos em automação de processos, manipulação de arquivos, integração com APIs públicas e envio de e-mails automatizado.
 
 ## Funcionalidades
 
