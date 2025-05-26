@@ -1,12 +1,12 @@
-# Consulta de CNPJ e Envio Automático por E-mail
+# Consulta de CNPJ e envio automático por e-mail
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://www.python.org/)
 [![Plataforma](https://img.shields.io/badge/Executavel-Windows%20%7C%20Linux%20%7C%20Android-informational?logo=codeforces)]()
 [![Licença](https://img.shields.io/badge/Licença-MIT-green)](LICENSE)
 
-## Sobre o Projeto
+## Sobre o projeto
 
-Este projeto realiza a **consulta automatizada de dados de empresas via CNPJ**, utilizando a [BrasilAPI](https://brasilapi.com.br/). Os dados são organizados em uma planilha `.xlsx` e enviados automaticamente por e-mail com o anexo.
+Este projeto realiza uma **consulta de dados de empresas pelo CNPJ**, utilizando a [BrasilAPI](https://brasilapi.com.br/). Os dados são organizados em uma planilha `.xlsx` e enviados automaticamente por e-mail em anexo.
 
 Foi desenvolvido como um **desafio pessoal** com o objetivo de aplicar conhecimentos em automação de processos, manipulação de arquivos, integração com APIs públicas e envio automatizado de relatórios.
 
@@ -17,12 +17,10 @@ Foi desenvolvido como um **desafio pessoal** com o objetivo de aplicar conhecime
 - Geração de planilha Excel com os dados estruturados;
 - Envio automático por e-mail com anexo;
 - Feedback em tempo real no terminal;
-- Tratamento de erros (CNPJs inválidos, falhas de API).
 
-## Campos Coletados
+## Campos coletados
 
 A planilha final gerada contém os seguintes dados classificados por CNPJ:
-
 - **CNPJ**
 - **Descrição da Unidade** (Matriz ou Filial)
 - **Razão Social**
@@ -36,7 +34,7 @@ A planilha final gerada contém os seguintes dados classificados por CNPJ:
 - **Telefone 1**
 - **Telefone 2**
 
-## Estrutura do Projeto
+## Estrutura do projeto
 
 ```
 projeto_cnpj_email/
@@ -59,29 +57,22 @@ projeto_cnpj_email/
 }
 ```
 
-> Atenção: Não utilize sua senha comum, crie uma senha de aplicativo nas configurações de Segurança da sua conta Google, disponível apenas com a verificação em duas etapas ativada.
+> Atenção: A partir de 30 de maio de 2022, o Google desativou a opção de utilizar sua senha comum, requerindo que uma senha de aplicativo seja utilizada, disponível apenas com a verificação em duas etapas ativada.
 
-## Bibliotecas Utilizadas
+## Bibliotecas python utilizadas
 
 requests — Requisições HTTP para a BrasilAPI
-
 csv — Leitura de arquivos de entrada
-
 openpyxl — Criação e edição de planilhas .xlsx
-
 smtplib — Envio de e-mail via protocolo SMTP
-
 email.message — Composição de e-mails com anexo
 
 
-## Como Executar
+## Como executar
 
 1. Preencha o arquivo cnpjs.csv com os CNPJs desejados (um por linha);
-
 2. Crie o arquivo credenciais.json com o e-mail, a senha de aplicativo e o destinatário;
-
 3. Execute o main.py:
-
 ```python
 python main.py
 ```
