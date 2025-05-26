@@ -57,9 +57,9 @@ projeto_cnpj_email/
 }
 ```
 
-> Atenção: Desde 30 de maio de 2022, o Google desativou a opção de utilizar sua senha de conta Google, solicitando que uma senha de aplicativo seja utilizada, disponível apenas com a verificação em duas etapas ativada.
+> Atenção: Desde 30 de maio de 2022, o Google desativou a opção de utilizar sua senha de conta Google em aplicativos, solicitando que uma senha de aplicativo seja utilizada, disponível apenas com a verificação em duas etapas ativada.
 
-## Programas utilizados
+## Programa utilizado
 
 [Pydroid 3](https://play.google.com/store/apps/details?id=ru.iiec.pydroid3)
 
